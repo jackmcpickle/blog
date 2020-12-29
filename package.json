@@ -1,6 +1,7 @@
 {
   "name": "eleventy-base-blog",
   "version": "5.0.2",
+  "private": true,
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
     "build": "eleventy",
@@ -14,9 +15,9 @@
     "url": "git://github.com/11ty/eleventy-base-blog.git"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Jack McNicol",
+    "email": "jack@mcpickle.com.au",
+    "url": "https://jack.mcpickle.com.au/"
   },
   "license": "MIT",
   "bugs": {
