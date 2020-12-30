@@ -6,7 +6,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const schema = require("@quasibit/eleventy-plugin-schema");
-
+const pluginPWA = require("eleventy-plugin-pwa");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -16,6 +16,7 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addPlugin(schema);
   eleventyConfig.addPlugin(pluginNavigation);
+  // eleventyConfig.addPlugin(pluginPWA);
 
   eleventyConfig.setDataDeepMerge(true);
 
@@ -91,7 +92,7 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
-  // Browsersync Overrides
+  // BrowserSync Overrides
   eleventyConfig.setBrowserSyncConfig({
     ui: false,
     ghostMode: false
