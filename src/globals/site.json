@@ -1,0 +1,24 @@
+{
+ "name": "McPickle Blog",
+  "description": "Fav BLog",
+  "url": "https://blog.mcpickle.com.au",
+  "baseUrl": "/",
+  "author": {
+    "handle": "@jackmcpickle",
+    "name": "Jack McNicol"
+  },
+  "images": {
+    "twitter": "twitter.jpg",
+    "og": "og.jpg"
+  },
+  "feed": {
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://blog.mcpickle.com.au"
+  },
+  "jsonfeed": {
+    "filename": "feed.json",
+    "path": "/feed/feed.json",
+    "url": "https://blog.mcpickle.com.au/feed/feed.json"
+  }
+}

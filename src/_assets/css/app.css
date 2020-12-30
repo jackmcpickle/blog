@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+/* Font (see https://fonts.google.com) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Prism Code Highlighting Theme (see https://prismjs.com) */
+@import url('https://cdn.jsdelivr.net/npm/prism-themes@1.5.0/themes/prism-dracula.css');
+
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import './modules/base.css';
+@import './modules/copy.css';
+@import './modules/tags.css';
+/* purgecss end ignore */
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';

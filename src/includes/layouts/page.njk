@@ -1,0 +1,15 @@
+---
+permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug }}{% endif %}/index.html"
+---
+
+{% extends 'page.njk' %}
+
+{% block body %}
+    <p>{{url}}</p>
+    <article>
+        <h1>{{ title }}</h1>
+        <section class="content post">
+            {{ content | safe }}
+        </section>
+    </article>
+{% endblock %}
