@@ -41,7 +41,7 @@
     "eleventy-plugin-pwa": "1.0.8",
     "luxon": "1.25.0",
     "markdown-it": "8.4.2",
-    "markdown-it-anchor": "5.3.0",
+    "markdown-it-anchor": "6.0.1",
     "postcss": "8.2.2",
     "postcss-cli": "8.3.1",
     "postcss-hash": "2.0.0",
